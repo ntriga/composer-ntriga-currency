@@ -27,7 +27,7 @@ composer require ntriga/currency:dev-master
 ### Download and update new currency rate ###
 
 ```php
-use Ntriga\Logger;
+use Ntriga\Currency;
 
 require __DIR__ . '/../vendor/autoload.php';
 
@@ -36,7 +36,7 @@ Currency::update();
 ### Convert currency ###
 
 ```php
-use Ntriga\Logger;
+use Ntriga\Currency;
 
 require __DIR__ . '/../vendor/autoload.php';
 
